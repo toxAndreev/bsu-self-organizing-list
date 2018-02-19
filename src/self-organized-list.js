@@ -13,9 +13,12 @@ class SelfOrganizedList {
     }
 
     insert(data) {
-        sol.insert('Pike');
-        sol.insert('Bass');
-        sol.insert('Roach');
+        sol.insert('Game of thrones');
+            sol.insert('Supernatural');
+            sol.insert('Breaking Bad');
+       // sol.insert('Pike');
+        //sol.insert('Bass');
+        //sol.insert('Roach');
     }
 
     size() {
