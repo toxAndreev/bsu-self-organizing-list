@@ -13,35 +13,39 @@ class SelfOrganizedList {
     }
 
     insert(data) {
-
+        sol.insert('Pike');
+        sol.insert('Bass');
+        sol.insert('Roach');
     }
 
     size() {
-
+        sol.size()
     }
 
     at(index) {
-
+        sol.at(1);
+        sol.at(2);
+        sol.at(0);
     }
 
     findNode(data) {
-
+        sol.findNode('Pike');
     }
 
     toArray() {
-
+        sol.toArray();
     }
 
     removeAt(index) {
-
+        sol.removeAt(2)
     }
 
     moveToFront(node) {
-
+        sol.moveToFront('Roach')
     }
 
     reorganize(data) {
-
+        sol.reorganize('Bass');
     }
 
 }
